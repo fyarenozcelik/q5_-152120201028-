@@ -1,0 +1,20 @@
+spring:
+  spring:
+    application:
+      name: q5
+  datasource:
+    url: jdbc:postgresql://localhost:5432/mydatabase  # PostgreSQL veritabanı URL'si
+    driver-class-name: org.postgresql.Driver
+    username: postgres                                # Veritabanı kullanıcı adı
+    password: 1234                             # Veritabanı şifresi
+
+  jpa:
+    hibernate:
+      ddl-auto: update                                 # Flyway kullanacağımız için ddl-auto değerini none yapıyoruz
+    show-sql: true                                    # SQL sorgularını konsola yazdırır
+
+
+
+
+
+
